@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#262626">
+    <meta
+      name="description"
+      content="About Janislley Oliveira, embedded software engineer, technical leader, researcher, and IEEE volunteer."
+    >
+    <title>About me — Janislley Oliveira</title>
+    <script>
+      if (localStorage.getItem("janislley-theme") === "light") {
+        document.documentElement.dataset.theme = "light";
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip navigation</a>
+    <header class="site-header">
+      <div class="identity">
+        <a class="site-name" href="index.html">Janislley Oliveira</a>
+        <p>Embedded Engineering · Research </p>
+      </div>
+      <div class="header-controls">
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="index.html" aria-current="page">About me</a>
+          <a href="cv.html">CV</a>
+          <a href="research.html">Research</a>
+          <a href="publications.html">Publications</a>
+          <a href="presentations.html">Presentations</a>
+          <a href="teaching.html">Teaching</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <button
+          class="theme-toggle"
+          id="theme-toggle"
+          type="button"
+          aria-label="Switch to light mode"
+          hidden
+        >
+          <svg class="theme-icon" id="sun-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"></path>
+          </svg>
+          <svg class="theme-icon" id="moon-icon" viewBox="0 0 24 24" aria-hidden="true" hidden>
+            <path d="M20.9 13A9 9 0 0 1 11 3.1 9 9 0 1 0 20.9 13Z"></path>
+          </svg>
+          <span class="theme-label" id="theme-label">Light mode</span>
+        </button>
+      </div>
+    </header>
+
+    <main class="profile-main" id="content">
+      <aside class="profile-column" aria-label="Profile">
+        <img
+          class="profile-photo"
+          src="images/Janislley_Photo.jpg"
+          alt="Portrait of Janislley Oliveira"
+        >
+        <p class="profile-note">Technical Leader at SIDIA — Samsung</p>
+        <p class="profile-note">Manaus, Amazonas · Brazil</p>
+      </aside>
+
+      <div class="content-column">
+        <section aria-labelledby="about-title">
+          <p class="section-label">EMBEDDED SYSTEM ENGINEER · APPLIED RESEARCH</p>
+          <h1 id="about-title">About me</h1>
+          <p>
+            I am Janislley Oliveira, an R&amp;D Technical Leader and Senior
+            Embedded Software Engineer at SIDIA — Samsung. I work on consumer
+            electronics development for Latin America and have more than ten
+            years of experience in embedded systems.
+          </p>
+          <p>
+            My work focuses on Linux and Android systems close to the hardware,
+            including the Linux kernel, device drivers, power management,
+            batteries, and wired and wireless charging technologies. Throughout
+            my career, I have contributed to the development of more than 150
+            Samsung device projects.
+          </p>
+          <p>
+            I have also authored more than 30 scientific publications. I enjoy
+            sharing knowledge, mentoring early-career professionals, and
+            helping people connect with engineering.
+          </p>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <span>janislley.info</span>
+      <span>© 2026 Janislley Oliveira</span>
+    </footer>
+    <script src="theme.js"></script>
+  </body>
+</html>

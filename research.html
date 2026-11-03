@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#262626">
+    <meta name="description" content="Research interests and technical areas of Janislley Oliveira.">
+    <title>Research — Janislley Oliveira</title>
+    <script>
+      if (localStorage.getItem("janislley-theme") === "light") {
+        document.documentElement.dataset.theme = "light";
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip navigation</a>
+    <header class="site-header">
+      <div class="identity"><a class="site-name" href="index.html">Janislley Oliveira</a><p>Embedded Engineering · Research · Leadership</p></div>
+      <div class="header-controls">
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="index.html">About me</a><a href="cv.html">CV</a>
+          <a href="research.html" aria-current="page">Research</a>
+          <a href="publications.html">Publications</a><a href="presentations.html">Presentations</a>
+          <a href="teaching.html">Teaching</a><a href="contact.html">Contact</a>
+        </nav>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light mode" hidden>
+          <svg class="theme-icon" id="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"></path></svg>
+          <svg class="theme-icon" id="moon-icon" viewBox="0 0 24 24" aria-hidden="true" hidden><path d="M20.9 13A9 9 0 0 1 11 3.1 9 9 0 1 0 20.9 13Z"></path></svg>
+          <span class="theme-label" id="theme-label">Light mode</span>
+        </button>
+      </div>
+    </header>
+    <main class="page-main" id="content">
+      <article class="content-column">
+        <section aria-labelledby="page-title">
+          <p class="section-label">RESEARCH AND AREAS OF EXPERTISE</p>
+          <h1 id="page-title">Research</h1>
+          <p>My technical work explores embedded systems and the interaction between software and hardware in consumer electronics.</p>
+          <h2>Research interests</h2>
+          <ul class="tag-list" aria-label="Research interests">
+            <li>Embedded Linux systems</li><li>Linux kernel and device drivers</li>
+            <li>Battery and charging technologies</li><li>Wired and wireless power</li>
+            <li>Power management</li><li>Consumer electronics</li>
+          </ul>
+          <p class="language-note">My work includes Linux and Android development, driver bring-up, hardware integration, and charging and power-consumption features for mobile devices.</p>
+        </section>
+        <section aria-labelledby="research-work-title">
+          <p class="section-label">INDUSTRY AND APPLIED RESEARCH</p>
+          <h2 id="research-work-title">Applied engineering</h2>
+          <p>At SIDIA — Samsung, I contribute to embedded software development for smartphones and tablets, including device drivers and power-management features across multiple hardware platforms. My work spans product development, integration, testing, launch, and post-release support.</p>
+          <p>I have also contributed to more than 150 consumer-electronics device projects and authored more than 30 scientific publications.</p>
+        </section>
+      </article>
+    </main>
+    <footer class="site-footer"><span>janislley.info</span><span>© 2026 Janislley Oliveira</span></footer>
+    <script src="theme.js"></script>
+  </body>
+</html>

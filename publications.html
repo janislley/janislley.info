@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#262626">
+    <meta name="description" content="Scientific publications by Janislley Oliveira.">
+    <title>Publications — Janislley Oliveira</title>
+    <script>
+      if (localStorage.getItem("janislley-theme") === "light") {
+        document.documentElement.dataset.theme = "light";
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip navigation</a>
+    <header class="site-header">
+      <div class="identity"><a class="site-name" href="index.html">Janislley Oliveira</a><p>Embedded Engineering · Research · Leadership</p></div>
+      <div class="header-controls">
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="index.html">About me</a><a href="cv.html">CV</a><a href="research.html">Research</a>
+          <a href="publications.html" aria-current="page">Publications</a>
+          <a href="presentations.html">Presentations</a><a href="teaching.html">Teaching</a><a href="contact.html">Contact</a>
+        </nav>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light mode" hidden>
+          <svg class="theme-icon" id="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"></path></svg>
+          <svg class="theme-icon" id="moon-icon" viewBox="0 0 24 24" aria-hidden="true" hidden><path d="M20.9 13A9 9 0 0 1 11 3.1 9 9 0 1 0 20.9 13Z"></path></svg>
+          <span class="theme-label" id="theme-label">Light mode</span>
+        </button>
+      </div>
+    </header>
+    <main class="page-main" id="content">
+      <article class="content-column">
+        <section aria-labelledby="page-title">
+          <p class="section-label">SCIENTIFIC WORK</p>
+          <h1 id="page-title">Publications</h1>
+          <p>I have authored more than 30 scientific papers in conferences and journals.</p>
+          <p>For the complete and up-to-date list of publications, visit my
+            <a href="https://scholar.google.com/citations?user=Yw4vt_AAAAAJ&amp;hl">Google Scholar profile</a>.
+          </p>
+        </section>
+      </article>
+    </main>
+    <footer class="site-footer"><span>janislley.info</span><span>© 2026 Janislley Oliveira</span></footer>
+    <script src="theme.js"></script>
+  </body>
+</html>
